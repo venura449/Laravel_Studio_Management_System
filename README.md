@@ -67,7 +67,7 @@ A powerful, Laravel-based application designed to streamline and automate daily 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cafepixel.git
+git clone https://github.com/venura449/Laravel_Studio_Management_System.git
 cd cafepixel
 
 # Install PHP dependencies
