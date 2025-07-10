@@ -67,22 +67,25 @@ A powerful, Laravel-based application designed to streamline and automate daily 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/heylies-studio.git
-cd heylies-studio
+git clone https://github.com/yourusername/cafepixel.git
+cd cafepixel
 
-# Install dependencies
+# Install PHP dependencies
 composer install
-npm install && npm run dev
+
+# Install Node.js dependencies and build assets
+npm install
+npm run dev
 
 # Copy and configure environment variables
 cp .env.example .env
 php artisan key:generate
 
-# Set up database
+# Set up the database (run migrations and seeders)
 php artisan migrate --seed
 
 # (Optional) Link storage for media files
 php artisan storage:link
 
-# Start the server
+# Start the Laravel development server
 php artisan serve
